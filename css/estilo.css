@@ -302,6 +302,7 @@ img {
     display: inline-block;
     width: 100%;
     padding-right: 7px;
+    padding-left: 5%;
 
 }
 
@@ -309,8 +310,8 @@ img {
     color: #DFDFDF;
     background-color: #ffd414;
     border-bottom: 1px solid #4d3e00;
-    padding-right: 1%;
-    padding-bottom: 2%;
+    padding-left: 2%;
+    
 }
 
 .w-clearfix:before,

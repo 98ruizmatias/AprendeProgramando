@@ -20,15 +20,33 @@
 
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+		
+		<!-- Embedded Scripts -->
+
 		<script type="text/javascript">
 			$(document).ready(function () {
 				$('.link a').click(function (e) {
 					var link = $(this).attr("href");
-					$("body").scrollTo(link, 1000);
+					$("body").scrollTo(link, 800);
 				});
 			});
-		</script>
 
+				
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#hi1').hide();
+				$('#hi2').hide();
+			});						
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#jiden').on(function (e) {
+					$('#hi1').show();
+					$('#hi2').show();
+				});
+			});	
+		</script>
 
 	</head>
 	<body>
@@ -67,14 +85,21 @@
 							<p>Hobbies</p>
 						</a>
 					</li>
-					<li class="link">
-						<a href="indexpa.html">
-							<p>PixelArt</p>
-						</a>
-					</li>
-					<li class="link">
-						<a href="indexarc.html">
-							<p>Arcade</p>
+
+					<li class="link" >
+						<a href=" " id="clccc"> 
+							<p>Proyectos</p>
+
+							<li class="link"  id="hi1">
+								<a href="indexpa.html">
+									<p>PixelArt</p>
+								</a>
+							</li>
+							<li class="link" id="hi2">
+								<a href="indexarc.html">
+									<p>Arcade</p>
+								</a>
+							</li>
 						</a>
 					</li>
 				</ul>
@@ -125,7 +150,7 @@
 				<h1 class="titulo-seccion">Sobre Mi</h1>
 				<div class="linea"><img src="Images/line.png"></div>
 			<h1 class="nom">Ruiz Matias</h1>
-			<h2 class="profesion">Tecnico en Computacion</h2>
+			<h2 class="profesion">Programador JR.</h2>
 			<p>Soy una persona autodidacta, apacionada por la tecnologia. Lo que mas disfruto de la tecnologia es encontrar fallos de seguridad y vulnerabilidades para luego poder corregirlas y asi tambien poder generar una barrera de seguridad mejor que la anterior.</p>
 		</section>
 
