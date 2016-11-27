@@ -381,41 +381,18 @@ span
     background: #ffd414;
 }
 
-/*
-.ntw.fb {
-    background-image: url('../Images/contact-fb-color.png');
-    background-position: 0px 0px;
-    background-size: cover;
+#hi1
+{
+    background-color: #333;
+    height: 95%;
+    width: 95%;
+    font-weight: ;
 }
 
-.ntw.fb:hover {
-    background-image: url('../Images/contact-fb-bw.png');
-    width: 35px;
-    height: 35px;
+#hi2
+{
+    background-color: #333;
+    height: 95%;
+    width: 95%;
+    font-weight: bold;
 }
-
-.ntw.tw {
-    background-image: url('../Images/contact-tw-color.jpg');
-    background-position: 0px 0px;
-    background-size: cover;
-}
-
-.ntw.tw:hover {
-    background-image: url('../Images/contact-tw-bw.png');
-    width: 35px;
-    height: 35px;
-}
-
-.ntw.lkd {
-    background-image: url('../Images/contact-lk-color.png');
-    background-position: 0px 0px;
-    background-size: cover;
-}
-
-.ntw.lkd:hover {
-    background-image: url('../Images/contact-lk-bw.png');
-    width: 35px;
-    height: 35px;
-}
-
-*/
