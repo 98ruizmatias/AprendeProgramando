@@ -41,11 +41,19 @@
 		</script>
 		<script type="text/javascript">
 			$(document).ready(function () {
-				$('#jiden').on(function (e) {
-					$('#hi1').show();
-					$('#hi2').show();
-				});
-			});	
+				$('#clccc').hover(
+					function () {
+						$('#hi1').show();
+						$('#hi2').show();
+					}
+				);
+				$('#clccc').mouseleave(
+					function () {
+						$('#hi1').hide();
+						$('#hi2').hide();
+					}
+				);
+			});
 		</script>
 
 	</head>
