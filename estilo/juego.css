@@ -1,0 +1,78 @@
+/*IDs*/
+
+body
+{
+  background-color: #22252a;
+  
+}
+
+h1
+{
+  color: #1a1a1a;
+  font-size: 65px;
+  font-family: 'Montserrat' ;
+  font-weight: lighter;
+  position:relative;
+  margin:auto;
+  background-color: #777;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 2%;
+  box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+
+}
+
+#juego
+{
+
+  width:600px;
+  height:600px;
+  position:relative;
+  background-color: #777;
+  margin:auto;
+  border-radius: 100%;
+  box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+}
+
+/*Clases*/
+
+.pieza
+{
+  width:200px;
+  height:200px;
+  background-position:center;
+  position:absolute;
+  background-size: 100% 100%;
+  border:1px solid grey;
+  border-radius: 5%;
+  box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+  transition: all 0.3s;
+  margin:auto;
+  }
+
+#backButt
+{
+  width: 32px;
+    height: 32px; 
+}
+
+.btn {
+    font-size: 30px;
+    color: #2c3e50;
+    border: 0.5px solid #CFCFC4;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 11px;
+}
+
+.btn:hover {
+    background: #979AAA;
+    color: #ffffff;
+    border-color: #3498db;
+}

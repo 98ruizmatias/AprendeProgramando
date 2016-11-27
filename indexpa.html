@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<link rel="icon" " href="images/ios7-circle-filled.png">
+
+		<link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+		<title>PixelArt</title>
+
+
+	<!-- CSS Link -->
+
+		<link rel="stylesheet" type="text/css" href="css/stylespa.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+	<!-- JS Link -->
+
+		<script src= "https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+		<script src="js/html2canvas.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#killDraw').hide();
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<a href="index.html" >
+			<button class="btn" id="backButt" href="index.html">
+				<span class="ion-ios-undo"></span>
+			</button>
+		</a>
+
+		<h1>Pixel-Art</h1>
+
+		<div id="container" >
+
+		</div>
+
+
+		<div id="actions">
+			
+
+			<div class="buttonActions">
+
+				<div id="colorPick">
+					
+					<div class="#FF6961" class="col">
+							
+					</div>
+						
+					<div class="#779ECB" class="col">
+							
+					</div>
+						
+					<div class="#77DD77" class="col">
+							
+					</div>
+
+					<div class="#3B3C36" class="col">
+							
+					</div>
+
+					<div class="#F2F3F4" class="col">
+					
+					</div>	
+
+				</div>	
+
+			</div>
+
+			
+
+			<div class="buttonActions">
+
+					<div class="grid">
+						<p class="auxFloat">Size</p>
+						<input name="reSize" id="reSize" type="text" name="" ">
+						<button id="arrowTog">
+							<span class="ion-ios-arrow-right"></span>
+						</button>
+					</div>
+
+					<div class="secpart">
+						<!-- Reset Button -->
+
+						<button id="reset" class="btn">
+								<span class="ion-ios-refresh"></span>
+						</button>
+
+						<!-- Show/Hide Grid -->
+
+							<button id="toggleBorder" class="btn">
+								<span class="ion-ios-eye"></span>
+							</button>
+
+						<!-- Grab It -->
+
+							<button id="grabIt" class="btn">
+								<span class="ion-android-done"></span>
+							</button>
+
+
+					</div>
+			</div>
+
+		</div>
+
+		<button id="killDraw" class="btn" > 
+			<span class="ion-close-round"></span>
+		</button>	
+
+		<footer>Ruiz Matias - Aprende Programando - PixelArt</footer>
+
+	</body>
+
+</html>

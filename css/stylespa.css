@@ -1,0 +1,245 @@
+/*Body*/
+
+body
+{
+    background-size: cover;
+    background-color: #33373d;
+    background
+    height: 100%;
+    width: 100%;
+    color: #2D3339;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 0;
+    text-align: center;
+    position: relative;
+    background-size: 300% auto;
+    background-position: 80% 92%; 
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+h1
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #777;
+	font-size: 4em;
+	text-shadow: 2px 2px 0px rgba(59, 60, 54, 1);
+	margin: 10px auto;
+}
+
+footer
+{
+	font-family: 'Roboto', sans-serif;
+	color: #979AAA;
+	font-size: 10px;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	margin:auto;
+	display: block;
+}
+
+/*Container*/
+
+#container
+{
+	margin: auto;
+	background-color: #fff;
+	width: 400px;
+	height: 400px;
+	box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.11);
+	border-radius: 5px;
+	border: 1px solid #DFE3E6;
+	box-shadow: inset 6px 6px 9px -9px rgba(97,96,97,0.91);
+}
+
+#actions
+{
+	width: 400px;
+	height: 110px;
+	margin:auto;
+	margin-top: 10px;
+	background-color: #F5F5F5;
+	box-shadow: 8px 8px 22px -8px rgba(0,0,0,1);
+	border: 1px solid #DFE3E6;
+	border-radius: 5px;
+	outline: 
+
+}
+
+div.colorPick
+{
+	float: left;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+div.buttonActions
+{
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+
+.secpart
+{
+	width: 198px;
+	height: 54px;
+	float: right;
+	/*border: 1px solid #CFCFC4;
+	border-radius: 30px;*/
+	margin-top: 3px;
+}
+
+	/*Grillas*/
+
+
+.grid
+{	
+	border: 0.5px solid #CFCFC4;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 0 14px;
+    margin-bottom: 10px;
+    background-color: #F5F5F5;
+}
+
+.grid p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+	color: #3B3C36;
+    float: left;
+}
+
+.grid input {
+    float: left;
+    width: 110px;
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid #CFCFC4;
+    margin-left: 5px;
+    margin-top: 4px;
+    background-color: #F5F5F5;
+}
+
+.grid .btn {
+    border: 0;
+    width: 16px;
+    height: 16px;
+    font-size: 24px;
+    float: right;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.grilla .btn:hover {
+    background: #ffffff;
+    color: #3498db;
+}
+
+
+.btn {
+    font-size: 30px;
+    color: #2c3e50;
+    border: 0.5px solid #CFCFC4;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 11px;
+}
+
+.btn:hover {
+    background: #979AAA;
+    color: #ffffff;
+    border-color: #3498db;
+}
+
+#arrowTog
+{
+	border: none;
+	background-color: none;
+	margin-top: 8px;
+	background: #F5F5F5;
+}
+
+.ion-ios-arrow-right
+{
+	background-size: 100px;
+}
+
+
+
+/*Color Picker*/
+
+
+#colorPick
+{	
+	height: 100px;
+	width: 200px;
+	float: left;
+}
+
+#colorPick>div {
+    width: 42px;
+	height: 42px;
+	display: inline;
+	margin: 2% 2%;
+    float: left;
+    border: 1px solid #CFCFC4;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#colorPick>div.select {
+    border: 1px solid #000000;
+}
+
+
+.celda
+{
+	outline: 0.5px solid grey;
+	float: left;
+	cursor: pointer;
+}
+
+#container .celda {
+    float: left;
+    background: #ecf0f1;
+    outline: 1px solid #fff;
+    cursor: pointer;
+}
+
+#container .celda.no-border {
+    outline: none;
+}
+
+#killDraw
+{
+	display: block;
+	margin:auto;
+	margin-left: 22%;
+    margin-top: 3%;
+
+}
+
+canvas
+{
+	box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.11);
+	border-radius: 5px;
+	border: 1px solid #DFE3E6;
+	box-shadow: inset 6px 6px 9px -9px rgba(97,96,97,0.91);
+	margin-left: 1%;
+}
+
+
+#backButt
+{
+	width: 32px;
+    height: 32px;	
+}
