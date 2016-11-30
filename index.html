@@ -41,26 +41,13 @@
 		</script>
 		<script type="text/javascript">
 			$(document).ready(function () {
-				$('#clccc').hover(
+				$('#clccc').click(
 					function () {
-						$('#hi1').show();
-						$('#hi2').show();
+						$('#hi1').toggle();
+						$('#hi2').toggle();
 					}
 				);
-				$('#clccc').mouseleave(
-					function () {
-						$('#hi1').hide();
-						$('#hi2').hide();
-					}
-				);
-				$('#hi1').hover(
-					function () {
-						$('#hi1').show();
-						$('#hi2').show();
-					}
-				);
-
-
+	
 			});
 		</script>
 
