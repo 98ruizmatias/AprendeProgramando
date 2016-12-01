@@ -23,6 +23,10 @@ h1
   margin-right: 35%;
   margin-bottom: 2%;
   box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+  margin-left: 42%;
+  background: grey;
+  font-size: 267%;
+  margin-right: 36%;
 }
 
 #juego
@@ -77,4 +81,12 @@ h1
     background: #979AAA;
     color: #ffffff;
     border-color: #3498db;
+}
+
+#aca
+{
+      margin-left: 41%;
+    background: grey;
+    font-size: 267%;
+    margin-right: 37%;
 }
