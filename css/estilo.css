@@ -311,8 +311,7 @@ img {
     background-color: #ffd414;
     border-bottom: 1px solid #4d3e00;
     padding-left: 2%;
-    box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
-   
+    
 }
 
 .w-clearfix:before,
@@ -382,45 +381,18 @@ span
     background: #ffd414;
 }
 
-li#hi1.link
+#hi1
 {
     background-color: #333;
     height: 95%;
     width: 95%;
     font-weight: ;
-    width: 100%;
-    padding-left: 4%;
-    margin-left: 1%;
-    border-right: 3px solid #97975A;
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
 }
 
-li#hi2.link
+#hi2
 {
     background-color: #333;
     height: 95%;
     width: 95%;
     font-weight: bold;
-    width: 100%;
-    padding-left: 4%;
-    margin-left: 1%;
-    border-right: 3px solid #97975A;
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
-}
-
-li#hi1.link:hover
-{
-    background-color: #222;
-    border-right: 3px solid #5B4C07;
-    box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
-}
-
-li#hi2.link:hover
-{
-    background-color: #222;
-    border-right: 3px solid #5B4C07;
-    box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
-
 }
